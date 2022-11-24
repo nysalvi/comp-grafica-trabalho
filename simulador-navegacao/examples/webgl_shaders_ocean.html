@@ -37,6 +37,7 @@
 			import { Water } from 'three/addons/objects/Water.js';
 			import { Sky } from 'three/addons/objects/Sky.js';
 			import { GCodeLoader } from 'three/addons/loaders/GCodeLoader.js';
+			import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 			let container, stats;
 			let camera, scene, renderer;
@@ -137,11 +138,17 @@
 
 				//
 
-				const geometry = new THREE.BoxGeometry( 30, 30, 30 );
-				const material = new THREE.MeshStandardMaterial( { roughness: 0 } );
+				const loader = new GLTFLoader();
 
-				mesh = new THREE.Mesh( geometry, material );
-				scene.add( mesh );
+				loader.load('textures/pingu/scene.gltf', function(gltf){
+					scene.add(gltf.scene)
+				})
+
+				// const geometry = new THREE.BoxGeometry( 30, 30, 30 );
+				// const material = new THREE.MeshStandardMaterial( { roughness: 0 } );
+
+				// mesh = new THREE.Mesh( geometry, material );
+				// scene.add( mesh );
 
 				//
 

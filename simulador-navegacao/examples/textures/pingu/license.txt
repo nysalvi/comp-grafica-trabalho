@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pingu with a shotgun
+* source:	https://sketchfab.com/3d-models/pingu-with-a-shotgun-c73208fe725448ce914380f276d74562
+* author:	juicyjames (https://sketchfab.com/juicyjames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pingu with a shotgun" (https://sketchfab.com/3d-models/pingu-with-a-shotgun-c73208fe725448ce914380f276d74562) by juicyjames (https://sketchfab.com/juicyjames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
